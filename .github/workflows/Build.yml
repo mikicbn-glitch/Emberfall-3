@@ -12,13 +12,13 @@ jobs:
       with:
         java-version: '21'
         distribution: 'temurin'
-    - name: Gradle 9.2 Kur
+    - name: Gradle 8.8 Kur
       uses: gradle/actions/setup-gradle@v4
       with:
-        gradle-version: 9.2
+        gradle-version: 8.8
     
     - name: Gradle Wrapper Oluştur
-      run: gradle wrapper --gradle-version 9.2
+      run: gradle wrapper --gradle-version 8.8
     - name: Gradle ile Derle
       run: ./gradlew build
     - name: Jar Dosyasını Yükle
