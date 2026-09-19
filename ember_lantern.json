@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "I",
+    "D",
+    "I"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_nugget" },
+    "D": { "item": "embarfall:ember_dust" }
+  },
+  "result": { "id": "embarfall:ember_lantern", "count": 1 }
+}

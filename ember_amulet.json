@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GRG",
+    "RSR",
+    "GRG"
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_nugget" },
+    "R": { "item": "embarfall:ash_rune" },
+    "S": { "item": "embarfall:sulfur_dust" }
+  },
+  "result": { "id": "embarfall:ember_amulet", "count": 1 }
+}

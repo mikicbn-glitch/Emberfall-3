@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  D",
+    " S ",
+    "S  "
+  ],
+  "key": {
+    "D": { "item": "embarfall:ember_dust" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": { "id": "embarfall:ember_wand", "count": 1 }
+}

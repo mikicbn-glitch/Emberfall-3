@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P",
+    "D",
+    "S"
+  ],
+  "key": {
+    "P": { "item": "minecraft:paper" },
+    "D": { "item": "embarfall:ember_dust" },
+    "S": { "item": "embarfall:sulfur_dust" }
+  },
+  "result": { "id": "embarfall:scroll_of_flames", "count": 3 }
+}
